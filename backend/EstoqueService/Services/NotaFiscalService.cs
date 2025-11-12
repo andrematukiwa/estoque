@@ -99,24 +99,21 @@ namespace EstoqueService.Services
             if (pedido.DSC_Status == "Fechada")
                 throw new Exception("Este pedido já foi faturado.");
 
-            // Cria a nota fiscal
             var nota = new NotaFiscal
             {
                 NUM_NotaFiscal = pedido.NUM_NotaFiscal ?? $"NF-{DateTime.Now:yyyyMMddHHmmss}",
-                DSC_Status = "Fechada", // ou "Emitida" se quiser mudar o texto
+                DSC_Status = "Fechada", 
                 Produtos = pedido.Produtos.ToList(),
                 NUM_ValorTotal = pedido.NUM_ValorTotal,
                 DT_Emissao = DateTime.Now,
                 PedidoId = pedido.Id
             };
 
-            // Marca o pedido como fechado
             pedido.DSC_Status = "Fechada";
 
             _context.Pedidos.Update(pedido);
             _context.NotasFiscais.Add(nota);
 
-            // Atualiza estoque dos produtos
             foreach (var produto in pedido.Produtos)
             {
                 var produtoDb = await _context.Produtos.FindAsync(produto.Id);
@@ -130,10 +127,8 @@ namespace EstoqueService.Services
                 _context.Produtos.Update(produtoDb);
             }
 
-            // Salva tudo de uma vez
             await _context.SaveChangesAsync();
 
-            // 🔄 Recarrega o pedido atualizado (garantir que status persistiu)
             await _context.Entry(pedido).ReloadAsync();
 
             return nota;

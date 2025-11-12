@@ -3,8 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\components"
+    "\\src\\app\\components",
+    "\\src\\app\\components\\pedido-listagem",
+    "\\src\\app\\components\\produto-cadastro",
+    "\\src\\app\\components\\produto-listagem",
+    "\\src\\app\\components\\venda-listagem",
+    "\\src\\app\\models",
+    "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\components",
+  "SelectedNode": "\\src\\app\\services\\produto.spec.ts",
   "PreviewInSolutionExplorer": false
 }

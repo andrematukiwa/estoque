@@ -1,0 +1,496 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\produto.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\produto.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\produto.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\produto.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\pedido.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\pedido.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\nota-fiscal.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\nota-fiscal.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\models\\produto.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\produto.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\models\\pedido.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\pedido.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\models\\nota-fiscal.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\nota-fiscal.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\venda-listagem\\venda-listagem.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\venda-listagem\\venda-listagem.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\venda-listagem\\venda-listagem.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\venda-listagem\\venda-listagem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\produto-listagem\\produto-listagem.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\produto-listagem\\produto-listagem.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\produto-listagem\\produto-listagem.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\produto-listagem\\produto-listagem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-cadastro\\produto-cadastro.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\produto-cadastro\\produto-cadastro.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-cadastro\\produto-cadastro.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\produto-cadastro\\produto-cadastro.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-listagem\\pedido-listagem.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\pedido-listagem\\pedido-listagem.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-listagem\\pedido-listagem.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\pedido-listagem\\pedido-listagem.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-listagem\\pedido-listagem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\pedido-listagem\\pedido-listagem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-cadastro\\pedido-cadastro.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\pedido-cadastro\\pedido-cadastro.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-cadastro\\pedido-cadastro.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\pedido-cadastro\\pedido-cadastro.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "produto.spec.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\produto.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\produto.spec.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\produto.spec.ts",
+              "RelativeToolTip": "src\\app\\services\\produto.spec.ts",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:20:20.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "produto.service.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\produto.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\produto.service.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\produto.service.ts",
+              "RelativeToolTip": "src\\app\\services\\produto.service.ts",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:20:18.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pedido.service.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\pedido.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\pedido.service.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\pedido.service.ts",
+              "RelativeToolTip": "src\\app\\services\\pedido.service.ts",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:20:17.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "nota-fiscal.service.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\nota-fiscal.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\nota-fiscal.service.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\services\\nota-fiscal.service.ts",
+              "RelativeToolTip": "src\\app\\services\\nota-fiscal.service.ts",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:20:15.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "produto.model.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\models\\produto.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\produto.model.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\models\\produto.model.ts",
+              "RelativeToolTip": "src\\app\\models\\produto.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:20:12.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pedido.model.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\models\\pedido.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\pedido.model.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\models\\pedido.model.ts",
+              "RelativeToolTip": "src\\app\\models\\pedido.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:20:10.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "nota-fiscal.model.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\models\\nota-fiscal.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\nota-fiscal.model.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\models\\nota-fiscal.model.ts",
+              "RelativeToolTip": "src\\app\\models\\nota-fiscal.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:20:09.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "venda-listagem.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\venda-listagem\\venda-listagem.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.ts",
+              "RelativeToolTip": "src\\app\\components\\venda-listagem\\venda-listagem.ts",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:20:04.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "venda-listagem.spec.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\venda-listagem\\venda-listagem.spec.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.spec.ts",
+              "RelativeToolTip": "src\\app\\components\\venda-listagem\\venda-listagem.spec.ts",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:20:03.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "venda-listagem.html",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\venda-listagem\\venda-listagem.html",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.html",
+              "RelativeToolTip": "src\\app\\components\\venda-listagem\\venda-listagem.html",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-12T14:20:00.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "venda-listagem.css",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\venda-listagem\\venda-listagem.css",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\venda-listagem\\venda-listagem.css",
+              "RelativeToolTip": "src\\app\\components\\venda-listagem\\venda-listagem.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T14:19:59.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "produto-listagem.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\produto-listagem\\produto-listagem.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.ts",
+              "RelativeToolTip": "src\\app\\components\\produto-listagem\\produto-listagem.ts",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:19:55.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "produto-listagem.spec.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\produto-listagem\\produto-listagem.spec.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.spec.ts",
+              "RelativeToolTip": "src\\app\\components\\produto-listagem\\produto-listagem.spec.ts",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:19:54.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "produto-listagem.html",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\produto-listagem\\produto-listagem.html",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.html",
+              "RelativeToolTip": "src\\app\\components\\produto-listagem\\produto-listagem.html",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-12T14:19:37.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "produto-listagem.css",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\produto-listagem\\produto-listagem.css",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-listagem\\produto-listagem.css",
+              "RelativeToolTip": "src\\app\\components\\produto-listagem\\produto-listagem.css",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T14:19:36.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "produto-cadastro.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-cadastro\\produto-cadastro.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\produto-cadastro\\produto-cadastro.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-cadastro\\produto-cadastro.ts",
+              "RelativeToolTip": "src\\app\\components\\produto-cadastro\\produto-cadastro.ts",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:19:32.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "produto-cadastro.html",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-cadastro\\produto-cadastro.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\produto-cadastro\\produto-cadastro.html",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\produto-cadastro\\produto-cadastro.html",
+              "RelativeToolTip": "src\\app\\components\\produto-cadastro\\produto-cadastro.html",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-12T14:19:30.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "pedido-listagem.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-listagem\\pedido-listagem.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\pedido-listagem\\pedido-listagem.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-listagem\\pedido-listagem.ts",
+              "RelativeToolTip": "src\\app\\components\\pedido-listagem\\pedido-listagem.ts",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:19:25.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "pedido-listagem.html",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-listagem\\pedido-listagem.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\pedido-listagem\\pedido-listagem.html",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-listagem\\pedido-listagem.html",
+              "RelativeToolTip": "src\\app\\components\\pedido-listagem\\pedido-listagem.html",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-12T14:19:23.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "pedido-listagem.css",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-listagem\\pedido-listagem.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\pedido-listagem\\pedido-listagem.css",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-listagem\\pedido-listagem.css",
+              "RelativeToolTip": "src\\app\\components\\pedido-listagem\\pedido-listagem.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T14:19:22.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "pedido-cadastro.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-cadastro\\pedido-cadastro.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\pedido-cadastro\\pedido-cadastro.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-cadastro\\pedido-cadastro.ts",
+              "RelativeToolTip": "src\\app\\components\\pedido-cadastro\\pedido-cadastro.ts",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwCMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:19:14.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "pedido-cadastro.html",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-cadastro\\pedido-cadastro.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\pedido-cadastro\\pedido-cadastro.html",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\pedido-cadastro\\pedido-cadastro.html",
+              "RelativeToolTip": "src\\app\\components\\pedido-cadastro\\pedido-cadastro.html",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-12T14:19:12.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "nota-fiscal-cadastro.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.ts",
+              "RelativeToolTip": "src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.ts",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:19:02.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "nota-fiscal-cadastro.html",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.html",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.html",
+              "RelativeToolTip": "src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.html",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-12T14:18:59.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "nota-fiscal-cadastro.css",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.css",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.css",
+              "RelativeToolTip": "src\\app\\components\\nota-fiscal-cadastro\\nota-fiscal-cadastro.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T14:18:57.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "nota-fiscal-listagem.ts",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.ts",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.ts",
+              "RelativeToolTip": "src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.ts",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAQwH4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-12T14:18:40.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "nota-fiscal-listagem.html",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.html",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.html",
+              "RelativeToolTip": "src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.html",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-12T14:18:30.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "nota-fiscal-listagem.css",
+              "DocumentMoniker": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.css",
+              "ToolTip": "C:\\Users\\matuk\\Documents\\estoque\\frontend\\src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.css",
+              "RelativeToolTip": "src\\app\\components\\nota-fiscal\\nota-fiscal-listagem.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T14:18:29.083Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

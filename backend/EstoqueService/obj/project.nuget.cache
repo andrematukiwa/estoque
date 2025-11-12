@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D578CwoKjgE=",
+  "dgSpecHash": "ogyeWW6Bjt4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\matuk\\source\\repos\\EstoqueService\\EstoqueService\\EstoqueService.csproj",
+  "projectFilePath": "C:\\Users\\matuk\\Documents\\estoque\\backend\\EstoqueService\\EstoqueService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matuk\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\matuk\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

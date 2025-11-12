@@ -39,7 +39,6 @@ namespace EstoqueService.Controllers
             return CreatedAtAction(nameof(GetById), new { id = criada.Id }, criada);
         }
 
-        // ✅ Endpoint de fechamento
         [HttpPut("{id}/fechar")]
         public async Task<IActionResult> FecharNota(int id)
         {

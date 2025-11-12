@@ -101,7 +101,6 @@ export class NotaFiscalListagemComponent implements OnInit {
       return;
     }
 
-    // apenas os IDs dos produtos
     const produtosParaEnviar = (this.pedidoSelecionado.Produtos || []).map(p => ({ Id: p.Id }));
 
     const novaNota = {
@@ -126,7 +125,6 @@ export class NotaFiscalListagemComponent implements OnInit {
           console.error('❌ Erro ao gerar nota:', err);
 
           if (err?.status === 404) {
-            // fallback
             this.http.post(`${this.baseUrl}/notafiscal`, novaNota).subscribe({
               next: () => {
                 this.mensagem = '✅ Nota fiscal gerada (fallback)!';

@@ -34,7 +34,6 @@ export class PedidoCadastroComponent implements OnInit {
   carregarProdutos(): void {
     this.http.get<any[]>(`${this.baseUrl}/produto`).subscribe({
       next: (data) => {
-        // 🔧 Corrige nomes vindos do backend
         this.produtos = data.map(p => ({
           Id: p.id,
           DSC_Name: p.dsC_Name,

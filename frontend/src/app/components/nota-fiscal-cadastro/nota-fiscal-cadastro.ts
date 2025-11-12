@@ -33,7 +33,6 @@ export class NotaFiscalCadastroComponent implements OnInit {
       next: (data) => {
         console.log('📦 Pedidos recebidos da API:', data);
 
-        // ⚠️ Corrigido para o formato real do JSON retornado pelo backend
         this.pedidos = (data || []).filter(p => p.dsC_Status === 'Aberta');
       },
       error: (err) => {
@@ -82,7 +81,7 @@ export class NotaFiscalCadastroComponent implements OnInit {
         this.errorMessage = '';
         this.pedidoSelecionado = null;
         this.carregarNotas();
-        this.carregarPedidos(); // atualiza lista de pedidos abertos
+        this.carregarPedidos(); 
       },
       error: (err) => {
         console.error(err);
