@@ -1,0 +1,38 @@
+<div class="dashboard-container">
+  <header class="dashboard-header">
+    <h1>📦 Gerenciamento de Estoque e Pedidos</h1>
+  </header>
+
+  <section class="dashboard-actions">
+    <button class="btn-primary" (click)="irParaNotaFiscal()">🧾 Gerar Nota Fiscal</button>
+    <button class="btn-success" (click)="irParaPedidos()">🛒 Novo Pedido</button>
+    <button class="btn-outline" (click)="irParaCadastroProduto()">➕ Cadastrar Produto</button>
+  </section>
+
+  <section class="dashboard-content">
+    <h2>📋 Produtos Disponíveis</h2>
+
+    <div class="table-wrapper" *ngIf="produtos.length > 0; else semProdutos">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Preço Unitário</th>
+            <th>Estoque</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of produtos">
+            <td>{{ p.DSC_Name }}</td>
+            <td>{{ p.NUM_UnitPrice | currency:'BRL' }}</td>
+            <td>{{ p.QTD_STOCK }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <ng-template #semProdutos>
+      <p class="info-text">Nenhum produto cadastrado ainda.</p>
+    </ng-template>
+  </section>
+</div>

@@ -1,0 +1,86 @@
+<div class="dashboard-container">
+  <header class="dashboard-header">
+    <h1>📜 Gerar Nota Fiscal</h1>
+  </header>
+
+  <section class="dashboard-actions">
+    <button class="btn-outline voltar-btn" (click)="irParaTelaInicial()">⬅ Voltar</button>
+  </section>
+
+  <div *ngIf="mensagem" class="alert alert-success">{{ mensagem }}</div>
+  <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+  <section class="dashboard-content">
+    <h4>Pedidos Abertos</h4>
+    <div class="table-wrapper" *ngIf="pedidos.length > 0; else semPedidos">
+      <table>
+        <thead>
+          <tr>
+            <th>Cliente</th>
+            <th>Total</th>
+            <th>Status</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let pedido of pedidos">
+            <td>{{ pedido.DSC_Cliente }}</td>
+            <td>{{ pedido.NUM_ValorTotal | currency:'BRL' }}</td>
+            <td>{{ pedido.DSC_Status }}</td>
+            <td>
+              <button class="btn-primary btn-sm" (click)="selecionarPedido(pedido)">Selecionar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <ng-template #semPedidos>
+      <p class="info-text">Nenhum pedido aberto no momento.</p>
+    </ng-template>
+
+    <div *ngIf="pedidoSelecionado" class="pedido-selecionado">
+      <h5>Pedido Selecionado: {{ pedidoSelecionado.DSC_Cliente }}</h5>
+      <ul>
+        <li *ngFor="let p of pedidoSelecionado.Produtos">
+          {{ p.DSC_Name }} - {{ p.NUM_UnitPrice | currency:'BRL' }} (Estoque: {{ p.QTD_STOCK }})
+        </li>
+      </ul>
+      <p><strong>Total:</strong> {{ pedidoSelecionado.NUM_ValorTotal | currency:'BRL' }}</p>
+
+      <button class="btn-success mt-3" (click)="gerarNotaFiscal()">Gerar Nota Fiscal</button>
+    </div>
+
+    <hr />
+
+    <h4>Notas Fiscais</h4>
+    <div class="table-wrapper" *ngIf="notas.length > 0; else semNotas">
+      <table>
+        <thead>
+          <tr>
+            <th>Número</th>
+            <th>Status</th>
+            <th>Produtos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let nota of notas">
+            <td>{{ nota.NUM_NotaFiscal }}</td>
+            <td>{{ nota.DSC_Status }}</td>
+            <td>
+              <ul>
+                <li *ngFor="let produto of nota.Produtos">
+                  {{ produto.DSC_Name }} - {{ produto.NUM_UnitPrice | currency:'BRL' }}
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <ng-template #semNotas>
+      <p class="info-text">Nenhuma nota fiscal gerada ainda.</p>
+    </ng-template>
+  </section>
+</div>

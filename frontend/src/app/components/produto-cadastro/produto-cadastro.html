@@ -1,0 +1,28 @@
+<div class="form-container">
+  <header class="form-header">
+    <h2>➕ Novo Produto</h2>
+  </header>
+  <button class="btn-outline voltar-btn mb-3" (click)="irParaTelaInicial()">⬅ Voltar</button>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+  <div *ngIf="sucessoMessage" class="alert alert-success">{{ sucessoMessage }}</div>
+
+  <form (ngSubmit)="salvarProduto()" class="produto-form">
+    <div class="form-group">
+      <label>Nome:</label>
+      <input type="text" [(ngModel)]="novoProduto.DSC_Name" name="nome" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+      <label>Preço Unitário:</label>
+      <input type="number" [(ngModel)]="novoProduto.NUM_UnitPrice" name="preco" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+      <label>Estoque:</label>
+      <input type="number" [(ngModel)]="novoProduto.QTD_STOCK" name="estoque" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn-primary submit-btn">Salvar Produto</button>
+  </form>
+</div>

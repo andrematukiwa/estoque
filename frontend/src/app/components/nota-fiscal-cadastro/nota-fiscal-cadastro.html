@@ -1,0 +1,78 @@
+<div class="container mt-4">
+  <h2>📜 Gerar Nota Fiscal</h2>
+
+  <div *ngIf="mensagem" class="alert alert-success">{{ mensagem }}</div>
+  <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+  <h4>Pedidos Abertos</h4>
+  <table class="table table-striped mt-3" *ngIf="pedidos.length > 0; else nenhumPedido">
+    <thead>
+      <tr>
+        <th>Cliente</th>
+        <th>Total</th>
+        <th>Status</th>
+        <th>Ação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pedido of pedidos">
+        <td>{{ pedido.dsC_Cliente }}</td>
+        <td>{{ pedido.nuM_ValorTotal | currency: 'BRL' }}</td>
+        <td>{{ pedido.dsC_Status }}</td>
+        <td>
+          <button class="btn btn-primary btn-sm" (click)="selecionarPedido(pedido)">
+            Selecionar
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <ng-template #nenhumPedido>
+    <p class="text-muted">Nenhum pedido aberto encontrado.</p>
+  </ng-template>
+
+  <div *ngIf="pedidoSelecionado" class="mt-4">
+    <h5>Pedido Selecionado: {{ pedidoSelecionado.dsC_Cliente }}</h5>
+    <ul>
+      <li *ngFor="let p of pedidoSelecionado.produtos">
+        {{ p.dsC_Name }} - {{ p.nuM_UnitPrice | currency: 'BRL' }} (Estoque: {{ p.qtD_STOCK }})
+      </li>
+    </ul>
+    <p><strong>Total:</strong> {{ pedidoSelecionado.nuM_ValorTotal | currency: 'BRL' }}</p>
+
+    <button class="btn btn-success mt-3" (click)="gerarNotaFiscal()">
+      Gerar Nota Fiscal
+    </button>
+  </div>
+
+  <hr />
+
+  <h4>Notas Fiscais Emitidas</h4>
+  <table class="table table-striped mt-3" *ngIf="notas.length > 0; else nenhumaNota">
+    <thead>
+      <tr>
+        <th>Número</th>
+        <th>Status</th>
+        <th>Produtos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let nota of notas">
+        <td>{{ nota.NUM_NotaFiscal }}</td>
+        <td>{{ nota.DSC_Status }}</td>
+        <td>
+          <ul>
+            <li *ngFor="let produto of nota.Produtos">
+              {{ produto.DSC_Name }} - {{ produto.NUM_UnitPrice | currency: 'BRL' }}
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <ng-template #nenhumaNota>
+    <p class="text-muted">Nenhuma nota fiscal emitida ainda.</p>
+  </ng-template>
+</div>

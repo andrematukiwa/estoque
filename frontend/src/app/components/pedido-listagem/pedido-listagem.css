@@ -1,0 +1,22 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+.alert {
+  margin-top: 15px;
+}
+
+form div {
+  margin-bottom: 10px;
+}

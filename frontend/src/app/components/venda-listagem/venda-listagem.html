@@ -1,0 +1,41 @@
+<div class="container mt-4">
+  <h2>🧾 Vendas Realizadas</h2>
+
+  <div class="mb-3">
+    <button class="btn btn-primary" (click)="novaVenda()">➕ Nova Venda</button>
+  </div>
+
+  <div *ngIf="carregando" class="alert alert-info">Carregando vendas...</div>
+  <div *ngIf="erro" class="alert alert-danger">{{ erro }}</div>
+
+  <table *ngIf="!carregando && vendas.length > 0" class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Cliente</th>
+        <th>Data</th>
+        <th>Produtos</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let v of vendas">
+        <td>{{ v.id }}</td>
+        <td>{{ v.dsc_Cliente }}</td>
+        <td>{{ v.dt_Venda | date:'short' }}</td>
+        <td>
+          <ul class="mb-0">
+            <li *ngFor="let prod of v.produtos">
+              {{ prod.dsC_Name }} ({{ prod.nuM_UnitPrice | currency:'BRL' }})
+            </li>
+          </ul>
+        </td>
+        <td><strong>{{ v.valorTotal | currency:'BRL' }}</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="!carregando && vendas.length === 0" class="alert alert-warning">
+    Nenhuma venda encontrada.
+  </div>
+</div>
